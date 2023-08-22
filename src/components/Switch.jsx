@@ -1,9 +1,12 @@
 import { HiOutlineSwitchHorizontal } from "react-icons/hi";
 
-const Switch = () => {
+const Switch = ({ handleSourceLangChange }) => {
   return (
     <div className="">
-      <HiOutlineSwitchHorizontal className="text-2xl hover:opacity-50 hover:cursor-pointer" />
+      <HiOutlineSwitchHorizontal
+        className="text-2xl hover:opacity-50 hover:cursor-pointer"
+        onClick={handleSourceLangChange}
+      />
     </div>
   );
 };

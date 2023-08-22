@@ -1,8 +1,16 @@
+import Image from "next/image";
 const Header = () => {
   return (
     <header className="">
-      <div className="h-[3rem] flex justify-center items-center border-gray-200 border-b">
-        <h1 className="">AI Translator</h1>
+      <div className="h-[4rem] flex items-center bg-white gap-5 px-5">
+        <Image
+          src="/logo.png"
+          width={40}
+          height={40}
+          layout="fixed"
+          alt="Picture of the author"
+        />
+        <h1 className=" font-bold">AI TRANSLATOR</h1>
       </div>
     </header>
   );
