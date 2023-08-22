@@ -3,7 +3,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        destination: "http://34.66.214.23/:path*",
+        destination: "https://cs93.site/:path*",
         source: "/a/:path*",
       },
     ];
