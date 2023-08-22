@@ -1,6 +1,6 @@
 ## 2023 ICT e-volunteer program for Bangladesh University of Engineering and Technology
 
-- Instructor: Mihyeon Byeonn
+- Instructor: Mihyeon Byeon
 
 - Participants: Students in Bangladesh University of Engineering and Technology
 
