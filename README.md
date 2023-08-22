@@ -40,5 +40,5 @@ NEXT_PUBLIC_API_URL=your api url
  npm run dev
 ```
 
-6. You can see the result in localhost:3000
+6. You can see the result in (https://localhost:3000)
 7. if you want to deploy your project, you can use vercel(https://vercel.com)
