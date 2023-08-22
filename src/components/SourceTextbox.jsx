@@ -38,6 +38,7 @@ const SourceTextbox = ({
           method: "GET",
           headers: {
             "Content-Type": "application/json",
+            "content-Security-Policy": "upgrade-insecure-requests",
             withCredentials: true,
           },
         }
