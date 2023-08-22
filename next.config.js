@@ -12,7 +12,13 @@ const nextConfig = {
     return [
       {
         source: "/assets/:path*",
-        headers: [{ key: "Access-Control-Allow-Origin", value: "*" }],
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          {
+            key: "Content-Security-Policy",
+            value: "upgrade-insecure-requests",
+          },
+        ],
       },
     ];
   },
